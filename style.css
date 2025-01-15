@@ -1,0 +1,104 @@
+.testo{
+    color: rgba(253, 66, 172, 0.875);
+    size: 10px;
+    text-align: justify;
+    
+}
+.sfondo{
+   background-image: url("https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_640.jpg");
+   background-repeat: repeat;
+   background-size: cover;
+}
+.titolo{
+    color: rgb(39, 58, 166);
+    text-align: center;
+    text-transform: uppercase;
+}
+.botton{
+     background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+table,tr,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    
+    
+}
+div.polaroid{
+    border: solid 8px black;
+    border-bottom: 30px black solid;
+    width: 150px ;
+    height: 150px;
+    margin: 10px;
+    border-color:rgb(247, 241, 219);
+    position: relative;
+    top:40px;
+    left:50px;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bottone{
+    border: solid 15px;
+     border-radius: 1290%;
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     background-color: rgb(0, 255, 149);
+     top: 0;
+     right: 0;
+}
+.rotateA{
+    border: solid 8px black;
+    border-bottom: 30px black solid;
+    width: 150px ;
+    height: 150px;
+    margin: 10px;
+    border-color:rgb(247, 241, 219);
+    transform: rotate(-40deg);
+    position: relative;
+    top:40px;
+    left:50px;
+}
+.rotateB{
+    border: solid 8px black;
+    border-bottom: 30px black solid;
+    width: 150px ;
+    height: 150px;
+    margin: 10px;
+    border-color:rgb(247, 241, 219);
+    transform: rotate(17deg);
+    position: relative;
+    left: 80px;
+    top: 0px;
+}
+.h1{
+    position:fixed;
+    bottom: 1%;
+}
+.h2{
+    
+    position: sticky;
+    top: 0px;
+}
+
+#button-container {
+   position: fixed;
+   left:50%;
+   
+   bottom:1%
+ }
