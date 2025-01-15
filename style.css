@@ -1,104 +1,15 @@
-.testo{
-    color: rgba(253, 66, 172, 0.875);
-    size: 10px;
-    text-align: justify;
-    
+.rounded{
+    border-radius: 25px;
+    background: #00a3c4;
 }
 .sfondo{
-   background-image: url("https://cdn.pixabay.com/photo/2015/01/07/16/37/wood-591631_640.jpg");
-   background-repeat: repeat;
-   background-size: cover;
+    background-image: url("https://i.pinimg.com/originals/fb/ea/73/fbea73249070d75b1c64e53622b20c4f.jpg");
 }
 .titolo{
-    color: rgb(39, 58, 166);
-    text-align: center;
-    text-transform: uppercase;
-}
-.botton{
-     background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
-table,tr,td{
-    border: 1px solid;
-    border-collapse: collapse;
-    
-    
-}
-div.polaroid{
-    border: solid 8px black;
-    border-bottom: 30px black solid;
-    width: 150px ;
-    height: 150px;
-    margin: 10px;
-    border-color:rgb(247, 241, 219);
+    font-size: 50px;
     position: relative;
-    top:40px;
-    left:50px;
-    
-}
-img{
-    height: 100%;
+    top: 2%;
     width: 100%;
+    text-align: center;
+    color: #025363;
 }
-.top-right{
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.bottone{
-    border: solid 15px;
-     border-radius: 1290%;
-     position: absolute;
-     width: 100px;
-     height: 100px;
-     background-color: rgb(0, 255, 149);
-     top: 0;
-     right: 0;
-}
-.rotateA{
-    border: solid 8px black;
-    border-bottom: 30px black solid;
-    width: 150px ;
-    height: 150px;
-    margin: 10px;
-    border-color:rgb(247, 241, 219);
-    transform: rotate(-40deg);
-    position: relative;
-    top:40px;
-    left:50px;
-}
-.rotateB{
-    border: solid 8px black;
-    border-bottom: 30px black solid;
-    width: 150px ;
-    height: 150px;
-    margin: 10px;
-    border-color:rgb(247, 241, 219);
-    transform: rotate(17deg);
-    position: relative;
-    left: 80px;
-    top: 0px;
-}
-.h1{
-    position:fixed;
-    bottom: 1%;
-}
-.h2{
-    
-    position: sticky;
-    top: 0px;
-}
-
-#button-container {
-   position: fixed;
-   left:50%;
-   
-   bottom:1%
- }

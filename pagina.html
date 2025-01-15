@@ -1,5 +1,33 @@
-<form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" value="John"><br><br>
-    <input type="submit" value="Submit">
-  </form>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lavoro con form</title>
+        <meta charset=" utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <link rel="stylesheet" href="style.css">
+        <script src="fileJavaScript.js" async></script>
+    </head>
+    <body class="sfondo">
+        <h1 class="titolo">Pagina Form</h1>
+        <h3>Form con submit e post </h3>
+        <!--  form con il post ovvero con i dati non passati sulla barra delle ricerche-->
+        <form method="post" action="https://webhook.site/88c7f5ad-874e-41e6-af6b-39e37398b010">
+            <label for="Nome">Nome:</label><br>
+            <input type="text" id="Nome" name="Nome" placeholder="Donald"><br><br>
+            <label for="Cognome">Cognome:</label><br>
+            <input type="text" id="Cognome" name="Cognome" placeholder="Mcdonald"><br><br>
+            <input class="rounded" type="submit" value="Submit">
+        </form>
+        
+        <br><br>          
+        
+        
+        <form>
+            <label for="Nome">Nome:</label><br>
+            <input type="text" id="BNome" name="Nome" placeholder="Donald"><br><br>
+            <label for="Cognome">Cognome:</label><br>
+            <input type="text" id="BCognome" name="Cognome" placeholder="Mcdonald"><br><br>
+            <input class="rounded" type="button" onclick="ConfButton()" value="button">
+        </form>
+    </body>
+</html>
