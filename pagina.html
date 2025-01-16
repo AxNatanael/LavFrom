@@ -3,11 +3,12 @@
     <head>
         <title>Lavoro con form</title>
         <meta charset=" utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <meta name="viewport" content="width=device-width" initial-scale=1>
         <link rel="stylesheet" href="style.css">
         <script src="fileJavaScript.js" async></script>
     </head>
-    <body class="sfondo">
+    <body onload="welcome()"  class="sfondo">
+        
         <h1 class="titolo">Pagina Form</h1>
         <h3>Form con submit e post </h3>
         <!--  form con il post ovvero con i dati non passati sulla barra delle ricerche-->
@@ -23,11 +24,23 @@
         
         
         <form>
-            <label for="Nome">Nome:</label><br>
-            <input type="text" id="BNome" name="Nome" placeholder="Donald"><br><br>
-            <label for="Cognome">Cognome:</label><br>
-            <input type="text" id="BCognome" name="Cognome" placeholder="Mcdonald"><br><br>
+            <label for="BNome">Nome:</label><br>
+            <input type="Btext" id="BNome" name="BNome" placeholder="Donald"><br><br>
+            <label for="BCognome">Cognome:</label><br>
+            <input type="text" id="BCognome" name="BCognome" placeholder="Mcdonald"><br><br>
             <input class="rounded" type="button" onclick="ConfButton()" value="button">
         </form>
+
+        <br><br>
+        <h3>Form Amazing</h3>
+        <form method="post" action="https://webhook.site/88c7f5ad-874e-41e6-af6b-39e37398b010">
+            <label for="CNome">Nome:</label><br>
+            <input type="text" id="CNome" name="CNome" placeholder="Donald"><br><br>
+            <label for="CCognome">Cognome:</label><br>
+            <input type="text" id="CCognome" name="CCognome" placeholder="Mcdonald"><br><br>
+            <input class="rounded" type="button" onclick="salvaLocal()" value="Sbubut">
+        </form>
+
+
     </body>
 </html>
